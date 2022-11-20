@@ -1,6 +1,8 @@
 const package = require("./addToCart");
 
-console.log(package.key("ear phones"));
+// console.log(package);
+
+console.log(package.key("watch", 20));
 
 // addToCart();
 

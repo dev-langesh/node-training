@@ -1,3 +1,17 @@
+// variables
+
+var name = "langesh";
+
+{
+  let name = "langesh";
+
+  const age = 20;
+}
+
+let arr = [1, 2, 3, "langesh", false];
+
+arr[0];
+
 // objects
 
 const obj = {
@@ -6,7 +20,7 @@ const obj = {
   key: "value",
 };
 
-console.log(obj.name);
+console.log(obj["age"]);
 
 // traditional functions
 
@@ -58,8 +72,7 @@ function b(fun) {
   console.log("function b");
 
   // processing ..
-
-  fun();
+  c();
 }
 
 b(c);
